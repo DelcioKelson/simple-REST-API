@@ -1,0 +1,28 @@
+GET http://localhost:5000/courses/
+
+###
+
+POST http://localhost:5000/courses
+content-Type: application/json
+
+{
+    "name": "finance",
+    "id": "2"
+}
+
+
+###
+
+
+DELETE http://localhost:5000/courses/605f2f283eda7972b8028ec0
+
+
+###
+
+
+PATCH http://localhost:5000/courses/605f338bf031067ac0670225
+Content-Type: application/json
+
+{
+    "name": "Name"
+}
